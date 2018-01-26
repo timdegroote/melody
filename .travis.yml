@@ -14,5 +14,8 @@ script:
     - travis_retry yarn test-travis
     - travis_retry yarn bundlesize
 
+after_success:
+    - travis_retry yarn coveralls
+
 after_script:
     - yarn run posttest
