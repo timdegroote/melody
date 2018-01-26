@@ -11,6 +11,7 @@ module.exports = {
         '<rootDir>/testsetup/requestAnimationFrame.js',
         '<rootDir>/testsetup/document.createRange.js',
     ],
+    coverageDirectory: './coverage',
     coverageReporters: ['json', 'lcov', 'text-summary', 'html'],
     collectCoverageFrom: [
         'packages/melody-hoc/**',
