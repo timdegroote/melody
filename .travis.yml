@@ -9,7 +9,6 @@ install:
 
 before_script:
     - yarn run pretest
-    - mkdir coverage
 
 script:
     - travis_retry yarn test-travis
